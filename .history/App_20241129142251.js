@@ -30,7 +30,7 @@ export default function App() {
         <Stack.Screen
           name="Chat"
           component={Chat}
-          options={{ title: 'Chat' }} 
+          options={{ title: 'Chat' }} // Example options for the Chat screen
         />
       </Stack.Navigator>
     </NavigationContainer>

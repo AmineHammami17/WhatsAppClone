@@ -6,6 +6,7 @@ import NewUser from './Screens/NewUser';
 import Accueil from './Screens/Accueil';
 import Chat from './Screens/Chat';
 
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -27,11 +28,11 @@ export default function App() {
           component={Accueil}
           options={{ title: 'Home', headerShown: true }}
         />
-        <Stack.Screen
+        <Stack.Screen>
           name="Chat"
           component={Chat}
-          options={{ title: 'Chat' }} 
-        />
+          options=
+        </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );

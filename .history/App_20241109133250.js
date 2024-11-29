@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Authentification from './Screens/Auth';
 import NewUser from './Screens/NewUser';
 import Accueil from './Screens/Accueil';
-import Chat from './Screens/Chat';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -26,11 +26,6 @@ export default function App() {
           name="Accueil"
           component={Accueil}
           options={{ title: 'Home', headerShown: true }}
-        />
-        <Stack.Screen
-          name="Chat"
-          component={Chat}
-          options={{ title: 'Chat' }} 
         />
       </Stack.Navigator>
     </NavigationContainer>
